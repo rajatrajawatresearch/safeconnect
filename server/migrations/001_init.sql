@@ -1,4 +1,4 @@
--- Sanket platform schema.
+-- SafeConnect platform schema.
 --
 -- Each aggregate is one row: the columns a query needs are real, indexed columns, and the full
 -- record is kept beside them as JSONB (`doc`). The API server holds the authoritative state in

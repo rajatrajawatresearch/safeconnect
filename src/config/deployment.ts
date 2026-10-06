@@ -26,7 +26,7 @@ export interface DeploymentConfig {
 }
 
 export const deployment: DeploymentConfig = {
-  productName: "Sanket",
+  productName: "SafeConnect",
   productTagline: "Public Safety Platform",
   orgName: "Gujarat Public Safety",
   stateName: "Gujarat",

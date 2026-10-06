@@ -1,5 +1,5 @@
 /**
- * Sanket API server.
+ * SafeConnect API server.
  *
  *   npm run api:dev      start with reload
  *   npm run db:setup     create the database, apply migrations, seed if empty
@@ -92,7 +92,7 @@ async function main() {
 
   await app.listen({ host: config.host, port: config.port });
   const s = platform.state;
-  console.log(`Sanket API ready on http://localhost:${config.port} · ${s.incidents.length} incidents, ${s.units.length} units · demo mode ${config.demoMode ? "on" : "off"}`);
+  console.log(`SafeConnect API ready on http://localhost:${config.port} · ${s.incidents.length} incidents, ${s.units.length} units · demo mode ${config.demoMode ? "on" : "off"}`);
 }
 
 main().catch((error) => {

@@ -1,4 +1,4 @@
-# Sanket — Public Safety Platform (prototype)
+# SafeConnect — Public Safety Platform (prototype)
 
 An integrated public-safety, emergency-response and police-operations platform for an Indian state
 deployment: a web app for five kinds of user and an API server backed by PostgreSQL. One codebase
